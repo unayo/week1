@@ -1,0 +1,130 @@
+/*font*/
+h2 {
+    font-size: 80px;
+    line-height: 90px;
+    font-family: Andale Mono, sans-serif;
+}
+h4 {
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: PingFang TC, sans-serif;
+    margin-bottom: 8px;
+    padding-right: 16px;
+}
+h6 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+.title h6 {
+    color: #A00404;
+}
+.text_white,  .text_white .title h6{
+    color: #fff;
+}
+p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    font-family: PingFang TC, sans-serif;
+    margin-bottom: 8px;
+    padding-right: 16px;
+}
+
+/*layout*/
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    padding-bottom: 72px;
+}
+.name_text {
+    padding: 48px 0 24px 0;
+}
+.name img {
+    margin: 48px 0;
+}
+.title {
+    border-bottom: 1px solid;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.title_center {
+    justify-content: center;
+}
+.item {
+    padding-top: 16px;
+    position: relative;
+}
+.dot, .item_content {
+    padding-left: 48px;
+}
+.dot::before {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: #96A9C4;
+    border-radius: 999em;
+    position: absolute;
+    left: 16px;
+    top: 24px;
+}
+.line::before {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #96A9C4;
+    position: absolute;
+    left: 23px;
+    top: 42px;
+    bottom: 16px;
+}
+.skills {
+    position: relative;
+}
+.skills::after {
+    content: "";
+    position: absolute;
+    background: #96A9C4;
+    top: 67px;
+    height: 360px;
+    width: 110%;
+    left: -10%;
+    z-index: -1;
+}
+.skills .background {
+    background: #415165;
+    padding: 24px 102px 56px 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work_content {
+    padding-bottom: 32px;
+}
+.work_content img {
+    margin-top: 8px;    
+    margin-bottom: 8px;
+}
+/*footer*/
+.footer {
+    background: #415165;
+    text-align: center;
+    padding: 24px 0 48px 0;
+}
+.footer .title {
+    margin-bottom: 32px;
+}
+.footer .content p {
+    padding-bottom: 16px;
+}
+.footer .social img {
+    padding-left: 16px;
+    padding-right: 16px;
+}
